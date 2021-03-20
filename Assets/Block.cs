@@ -12,7 +12,7 @@ public class Block : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y < -5f)
+        if (transform.position.y < -8f)
         {
             Destroy(gameObject);
         }
